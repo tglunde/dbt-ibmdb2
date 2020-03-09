@@ -1,5 +1,5 @@
 
-name: dbt-ibmdb2
+name: ibmdb2
 version: 1.0
 
 macro-paths: ["macros"]
