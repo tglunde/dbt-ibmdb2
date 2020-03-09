@@ -17,11 +17,12 @@ setup(
     packages=find_packages(),
     package_data={
         'dbt': [
-            'include/dbt-ibmdb2/dbt_project.yml',
-            'include/dbt-ibmdb2/macros/*.sql',
+            'include/ibmdb2/dbt_project.yml',
+            'include/ibmdb2/macros/*.sql',
         ]
     },
     install_requires=[
-       'dbt-core>={}'.format('0.15.0')
+       'dbt-core>={}'.format('0.15.0'),
+       'JayDeBeApi'
     ]
 )
